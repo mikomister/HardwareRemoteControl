@@ -34,10 +34,12 @@ If you can't use USB-HDMI Video Capture Device and use camera, in image transfor
 # Tests
 
 With USB-HDMI Video Capture Device:
+
 ![Alt text](./Images/test.gif?raw=true "Image")
 
 With Web-Camera:
-![Alt text](./Images/test.gif?raw=true "Image")
+
+![Alt text](./Images/test2.gif?raw=true "Image")
 
 # 3D Printed Box for ESP32 S3 With/Without Relays
 
@@ -46,4 +48,4 @@ You can print box for your device. Look in **Sources/3D Printed Box** folder. I'
 
 # License
 
-My project parts is MIT, but it uses modified AForge lib version and it's GPL/LGPL                                                                                         
+My project parts is MIT, but it uses modified AForge lib version and it's GPL/LGPL
