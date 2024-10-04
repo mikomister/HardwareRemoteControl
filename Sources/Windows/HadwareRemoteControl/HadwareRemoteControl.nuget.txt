@@ -1,0 +1,10 @@
+NuGet\Install-Package System.Management 
+NuGet\Install-Package OpenCvSharp4.Extensions 
+NuGet\Install-Package OpenCvSharp4.Windows
+NuGet\Install-Package DirectShowLib.Standard 
+
+NuGet\Install-Package AForge.Video
+NuGet\Install-Package AForge.Video.DirectShow;
+Install-Package Emgu.CV
+Install-Package Emgu.CV.Bitmap
+Install-Package Emgu.CV.runtime.windows
