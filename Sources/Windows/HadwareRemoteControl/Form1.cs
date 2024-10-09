@@ -247,7 +247,7 @@ namespace HadwareRemoteControl
                     Invoke(new Action(() =>
                     {
                         //pbScreen.Image = 
-                        if ((DateTime.Now - LastUpdate).TotalMilliseconds > 80)
+                        if ((DateTime.Now - LastUpdate).TotalMilliseconds > 50 || !transformationData.UseTransform)
                         {
                             LastUpdate = DateTime.Now;
                             btSource = (Bitmap)e.Frame.Clone();
@@ -451,6 +451,7 @@ namespace HadwareRemoteControl
             keysMap[19] = 0x48; //Pause
             keysMap[20] = 0x2C;
             keysMap[27] = 0x29;
+            keysMap[32] = 0x2C;
 
             keysMap[91] = 0xE3; //Win ???
 
