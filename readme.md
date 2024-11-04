@@ -1,3 +1,5 @@
+[SRC, habr](https://habr.com/ru/companies/ruvds/articles/847842/)
+
 # About
 
 This is software part for project HardwareRemoteControl. It physically connects two computers and allow one to control another. Any OS on controlled PC (you can even enter BIOS and reinstall OS), only Windows on controlling PC.
